@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAD03F8F29ADF68700A42E13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD03F8E29ADF68700A42E13 /* AppDelegate.swift */; };
+		FAD03F9129ADF68700A42E13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD03F9029ADF68700A42E13 /* SceneDelegate.swift */; };
+		FAD03F9329ADF68700A42E13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD03F9229ADF68700A42E13 /* ViewController.swift */; };
+		FAD03F9629ADF68700A42E13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD03F9429ADF68700A42E13 /* Main.storyboard */; };
+		FAD03F9829ADF68A00A42E13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD03F9729ADF68A00A42E13 /* Assets.xcassets */; };
+		FAD03F9B29ADF68A00A42E13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD03F9929ADF68A00A42E13 /* LaunchScreen.storyboard */; };
+		FAD03FA629ADF68A00A42E13 /* Mobven_FigmaProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD03FA529ADF68A00A42E13 /* Mobven_FigmaProjectTests.swift */; };
+		FAD03FB029ADF68A00A42E13 /* Mobven_FigmaProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD03FAF29ADF68A00A42E13 /* Mobven_FigmaProjectUITests.swift */; };
+		FAD03FB229ADF68A00A42E13 /* Mobven_FigmaProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD03FB129ADF68A00A42E13 /* Mobven_FigmaProjectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAD03FA229ADF68A00A42E13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAD03F8329ADF68700A42E13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD03F8A29ADF68700A42E13;
+			remoteInfo = "Mobven-FigmaProject";
+		};
+		FAD03FAC29ADF68A00A42E13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAD03F8329ADF68700A42E13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD03F8A29ADF68700A42E13;
+			remoteInfo = "Mobven-FigmaProject";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAD03F8B29ADF68700A42E13 /* Mobven-FigmaProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobven-FigmaProject.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD03F8E29ADF68700A42E13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAD03F9029ADF68700A42E13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAD03F9229ADF68700A42E13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAD03F9529ADF68700A42E13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAD03F9729ADF68A00A42E13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAD03F9A29ADF68A00A42E13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAD03F9C29ADF68A00A42E13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD03FA129ADF68A00A42E13 /* Mobven-FigmaProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobven-FigmaProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD03FA529ADF68A00A42E13 /* Mobven_FigmaProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobven_FigmaProjectTests.swift; sourceTree = "<group>"; };
+		FAD03FAB29ADF68A00A42E13 /* Mobven-FigmaProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobven-FigmaProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD03FAF29ADF68A00A42E13 /* Mobven_FigmaProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobven_FigmaProjectUITests.swift; sourceTree = "<group>"; };
+		FAD03FB129ADF68A00A42E13 /* Mobven_FigmaProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobven_FigmaProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAD03F8829ADF68700A42E13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD03F9E29ADF68A00A42E13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD03FA829ADF68A00A42E13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAD03F8229ADF68700A42E13 = {
+			isa = PBXGroup;
+			children = (
+				FAD03F8D29ADF68700A42E13 /* Mobven-FigmaProject */,
+				FAD03FA429ADF68A00A42E13 /* Mobven-FigmaProjectTests */,
+				FAD03FAE29ADF68A00A42E13 /* Mobven-FigmaProjectUITests */,
+				FAD03F8C29ADF68700A42E13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAD03F8C29ADF68700A42E13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD03F8B29ADF68700A42E13 /* Mobven-FigmaProject.app */,
+				FAD03FA129ADF68A00A42E13 /* Mobven-FigmaProjectTests.xctest */,
+				FAD03FAB29ADF68A00A42E13 /* Mobven-FigmaProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAD03F8D29ADF68700A42E13 /* Mobven-FigmaProject */ = {
+			isa = PBXGroup;
+			children = (
+				FAD03F8E29ADF68700A42E13 /* AppDelegate.swift */,
+				FAD03F9029ADF68700A42E13 /* SceneDelegate.swift */,
+				FAD03F9229ADF68700A42E13 /* ViewController.swift */,
+				FAD03F9429ADF68700A42E13 /* Main.storyboard */,
+				FAD03F9729ADF68A00A42E13 /* Assets.xcassets */,
+				FAD03F9929ADF68A00A42E13 /* LaunchScreen.storyboard */,
+				FAD03F9C29ADF68A00A42E13 /* Info.plist */,
+			);
+			path = "Mobven-FigmaProject";
+			sourceTree = "<group>";
+		};
+		FAD03FA429ADF68A00A42E13 /* Mobven-FigmaProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAD03FA529ADF68A00A42E13 /* Mobven_FigmaProjectTests.swift */,
+			);
+			path = "Mobven-FigmaProjectTests";
+			sourceTree = "<group>";
+		};
+		FAD03FAE29ADF68A00A42E13 /* Mobven-FigmaProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAD03FAF29ADF68A00A42E13 /* Mobven_FigmaProjectUITests.swift */,
+				FAD03FB129ADF68A00A42E13 /* Mobven_FigmaProjectUITestsLaunchTests.swift */,
+			);
+			path = "Mobven-FigmaProjectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAD03F8A29ADF68700A42E13 /* Mobven-FigmaProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD03FB529ADF68A00A42E13 /* Build configuration list for PBXNativeTarget "Mobven-FigmaProject" */;
+			buildPhases = (
+				FAD03F8729ADF68700A42E13 /* Sources */,
+				FAD03F8829ADF68700A42E13 /* Frameworks */,
+				FAD03F8929ADF68700A42E13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mobven-FigmaProject";
+			productName = "Mobven-FigmaProject";
+			productReference = FAD03F8B29ADF68700A42E13 /* Mobven-FigmaProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAD03FA029ADF68A00A42E13 /* Mobven-FigmaProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD03FB829ADF68A00A42E13 /* Build configuration list for PBXNativeTarget "Mobven-FigmaProjectTests" */;
+			buildPhases = (
+				FAD03F9D29ADF68A00A42E13 /* Sources */,
+				FAD03F9E29ADF68A00A42E13 /* Frameworks */,
+				FAD03F9F29ADF68A00A42E13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAD03FA329ADF68A00A42E13 /* PBXTargetDependency */,
+			);
+			name = "Mobven-FigmaProjectTests";
+			productName = "Mobven-FigmaProjectTests";
+			productReference = FAD03FA129ADF68A00A42E13 /* Mobven-FigmaProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAD03FAA29ADF68A00A42E13 /* Mobven-FigmaProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD03FBB29ADF68A00A42E13 /* Build configuration list for PBXNativeTarget "Mobven-FigmaProjectUITests" */;
+			buildPhases = (
+				FAD03FA729ADF68A00A42E13 /* Sources */,
+				FAD03FA829ADF68A00A42E13 /* Frameworks */,
+				FAD03FA929ADF68A00A42E13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAD03FAD29ADF68A00A42E13 /* PBXTargetDependency */,
+			);
+			name = "Mobven-FigmaProjectUITests";
+			productName = "Mobven-FigmaProjectUITests";
+			productReference = FAD03FAB29ADF68A00A42E13 /* Mobven-FigmaProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAD03F8329ADF68700A42E13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					FAD03F8A29ADF68700A42E13 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					FAD03FA029ADF68A00A42E13 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = FAD03F8A29ADF68700A42E13;
+					};
+					FAD03FAA29ADF68A00A42E13 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = FAD03F8A29ADF68700A42E13;
+					};
+				};
+			};
+			buildConfigurationList = FAD03F8629ADF68700A42E13 /* Build configuration list for PBXProject "Mobven-FigmaProject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAD03F8229ADF68700A42E13;
+			productRefGroup = FAD03F8C29ADF68700A42E13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAD03F8A29ADF68700A42E13 /* Mobven-FigmaProject */,
+				FAD03FA029ADF68A00A42E13 /* Mobven-FigmaProjectTests */,
+				FAD03FAA29ADF68A00A42E13 /* Mobven-FigmaProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAD03F8929ADF68700A42E13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD03F9B29ADF68A00A42E13 /* LaunchScreen.storyboard in Resources */,
+				FAD03F9829ADF68A00A42E13 /* Assets.xcassets in Resources */,
+				FAD03F9629ADF68700A42E13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD03F9F29ADF68A00A42E13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD03FA929ADF68A00A42E13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAD03F8729ADF68700A42E13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD03F9329ADF68700A42E13 /* ViewController.swift in Sources */,
+				FAD03F8F29ADF68700A42E13 /* AppDelegate.swift in Sources */,
+				FAD03F9129ADF68700A42E13 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD03F9D29ADF68A00A42E13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD03FA629ADF68A00A42E13 /* Mobven_FigmaProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD03FA729ADF68A00A42E13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD03FB229ADF68A00A42E13 /* Mobven_FigmaProjectUITestsLaunchTests.swift in Sources */,
+				FAD03FB029ADF68A00A42E13 /* Mobven_FigmaProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAD03FA329ADF68A00A42E13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD03F8A29ADF68700A42E13 /* Mobven-FigmaProject */;
+			targetProxy = FAD03FA229ADF68A00A42E13 /* PBXContainerItemProxy */;
+		};
+		FAD03FAD29ADF68A00A42E13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD03F8A29ADF68700A42E13 /* Mobven-FigmaProject */;
+			targetProxy = FAD03FAC29ADF68A00A42E13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAD03F9429ADF68700A42E13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD03F9529ADF68700A42E13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAD03F9929ADF68A00A42E13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD03F9A29ADF68A00A42E13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAD03FB329ADF68A00A42E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAD03FB429ADF68A00A42E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAD03FB629ADF68A00A42E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9LXMKAWP4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mobven-FigmaProject/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iosApplications.Mobven-FigmaProject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAD03FB729ADF68A00A42E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9LXMKAWP4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mobven-FigmaProject/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iosApplications.Mobven-FigmaProject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAD03FB929ADF68A00A42E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9LXMKAWP4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iosApplications.Mobven-FigmaProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobven-FigmaProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mobven-FigmaProject";
+			};
+			name = Debug;
+		};
+		FAD03FBA29ADF68A00A42E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9LXMKAWP4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iosApplications.Mobven-FigmaProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobven-FigmaProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mobven-FigmaProject";
+			};
+			name = Release;
+		};
+		FAD03FBC29ADF68A00A42E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9LXMKAWP4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iosApplications.Mobven-FigmaProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mobven-FigmaProject";
+			};
+			name = Debug;
+		};
+		FAD03FBD29ADF68A00A42E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9LXMKAWP4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iosApplications.Mobven-FigmaProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mobven-FigmaProject";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAD03F8629ADF68700A42E13 /* Build configuration list for PBXProject "Mobven-FigmaProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD03FB329ADF68A00A42E13 /* Debug */,
+				FAD03FB429ADF68A00A42E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD03FB529ADF68A00A42E13 /* Build configuration list for PBXNativeTarget "Mobven-FigmaProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD03FB629ADF68A00A42E13 /* Debug */,
+				FAD03FB729ADF68A00A42E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD03FB829ADF68A00A42E13 /* Build configuration list for PBXNativeTarget "Mobven-FigmaProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD03FB929ADF68A00A42E13 /* Debug */,
+				FAD03FBA29ADF68A00A42E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD03FBB29ADF68A00A42E13 /* Build configuration list for PBXNativeTarget "Mobven-FigmaProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD03FBC29ADF68A00A42E13 /* Debug */,
+				FAD03FBD29ADF68A00A42E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAD03F8329ADF68700A42E13 /* Project object */;
+}
