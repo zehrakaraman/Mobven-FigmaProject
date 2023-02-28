@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		FAD03F8F29ADF68700A42E13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD03F8E29ADF68700A42E13 /* AppDelegate.swift */; };
 		FAD03F9129ADF68700A42E13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD03F9029ADF68700A42E13 /* SceneDelegate.swift */; };
-		FAD03F9329ADF68700A42E13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD03F9229ADF68700A42E13 /* ViewController.swift */; };
 		FAD03F9629ADF68700A42E13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD03F9429ADF68700A42E13 /* Main.storyboard */; };
 		FAD03F9829ADF68A00A42E13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD03F9729ADF68A00A42E13 /* Assets.xcassets */; };
 		FAD03F9B29ADF68A00A42E13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD03F9929ADF68A00A42E13 /* LaunchScreen.storyboard */; };
 		FAD03FA629ADF68A00A42E13 /* Mobven_FigmaProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD03FA529ADF68A00A42E13 /* Mobven_FigmaProjectTests.swift */; };
 		FAD03FB029ADF68A00A42E13 /* Mobven_FigmaProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD03FAF29ADF68A00A42E13 /* Mobven_FigmaProjectUITests.swift */; };
 		FAD03FB229ADF68A00A42E13 /* Mobven_FigmaProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD03FB129ADF68A00A42E13 /* Mobven_FigmaProjectUITestsLaunchTests.swift */; };
+		FAD03FC029ADF76300A42E13 /* SetupAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD03FBF29ADF76300A42E13 /* SetupAccountViewController.swift */; };
+		FAD03FC229AE00C300A42E13 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD03FC129AE00C300A42E13 /* Colors.xcassets */; };
+		FAD03FCC29AE12CD00A42E13 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAD03FC729AE0A2600A42E13 /* Montserrat-Bold.ttf */; };
+		FAD03FCD29AE12D000A42E13 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAD03FC929AE0A4000A42E13 /* Montserrat-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,6 @@
 		FAD03F8B29ADF68700A42E13 /* Mobven-FigmaProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobven-FigmaProject.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD03F8E29ADF68700A42E13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAD03F9029ADF68700A42E13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAD03F9229ADF68700A42E13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAD03F9529ADF68700A42E13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAD03F9729ADF68A00A42E13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAD03F9A29ADF68A00A42E13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		FAD03FAB29ADF68A00A42E13 /* Mobven-FigmaProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobven-FigmaProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD03FAF29ADF68A00A42E13 /* Mobven_FigmaProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobven_FigmaProjectUITests.swift; sourceTree = "<group>"; };
 		FAD03FB129ADF68A00A42E13 /* Mobven_FigmaProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobven_FigmaProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FAD03FBF29ADF76300A42E13 /* SetupAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupAccountViewController.swift; sourceTree = "<group>"; };
+		FAD03FC129AE00C300A42E13 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		FAD03FC729AE0A2600A42E13 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		FAD03FC929AE0A4000A42E13 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +105,10 @@
 		FAD03F8D29ADF68700A42E13 /* Mobven-FigmaProject */ = {
 			isa = PBXGroup;
 			children = (
-				FAD03F8E29ADF68700A42E13 /* AppDelegate.swift */,
-				FAD03F9029ADF68700A42E13 /* SceneDelegate.swift */,
-				FAD03F9229ADF68700A42E13 /* ViewController.swift */,
-				FAD03F9429ADF68700A42E13 /* Main.storyboard */,
-				FAD03F9729ADF68A00A42E13 /* Assets.xcassets */,
-				FAD03F9929ADF68A00A42E13 /* LaunchScreen.storyboard */,
+				FAD03FBE29ADF70200A42E13 /* Common */,
+				FAD03FBF29ADF76300A42E13 /* SetupAccountViewController.swift */,
+				FAD03FC729AE0A2600A42E13 /* Montserrat-Bold.ttf */,
+				FAD03FC929AE0A4000A42E13 /* Montserrat-Regular.ttf */,
 				FAD03F9C29ADF68A00A42E13 /* Info.plist */,
 			);
 			path = "Mobven-FigmaProject";
@@ -125,6 +129,19 @@
 				FAD03FB129ADF68A00A42E13 /* Mobven_FigmaProjectUITestsLaunchTests.swift */,
 			);
 			path = "Mobven-FigmaProjectUITests";
+			sourceTree = "<group>";
+		};
+		FAD03FBE29ADF70200A42E13 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FAD03F8E29ADF68700A42E13 /* AppDelegate.swift */,
+				FAD03F9029ADF68700A42E13 /* SceneDelegate.swift */,
+				FAD03F9429ADF68700A42E13 /* Main.storyboard */,
+				FAD03F9729ADF68A00A42E13 /* Assets.xcassets */,
+				FAD03FC129AE00C300A42E13 /* Colors.xcassets */,
+				FAD03F9929ADF68A00A42E13 /* LaunchScreen.storyboard */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +248,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAD03FCD29AE12D000A42E13 /* Montserrat-Regular.ttf in Resources */,
+				FAD03FCC29AE12CD00A42E13 /* Montserrat-Bold.ttf in Resources */,
 				FAD03F9B29ADF68A00A42E13 /* LaunchScreen.storyboard in Resources */,
+				FAD03FC229AE00C300A42E13 /* Colors.xcassets in Resources */,
 				FAD03F9829ADF68A00A42E13 /* Assets.xcassets in Resources */,
 				FAD03F9629ADF68700A42E13 /* Main.storyboard in Resources */,
 			);
@@ -258,9 +278,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAD03F9329ADF68700A42E13 /* ViewController.swift in Sources */,
 				FAD03F8F29ADF68700A42E13 /* AppDelegate.swift in Sources */,
 				FAD03F9129ADF68700A42E13 /* SceneDelegate.swift in Sources */,
+				FAD03FC029ADF76300A42E13 /* SetupAccountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +465,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +494,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
